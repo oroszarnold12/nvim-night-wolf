@@ -87,10 +87,6 @@ local theme = lush(function(injected_functions)
 		sym("@type.tsx")({ sym("@variable") }),
 		sym("@type.typescript")({ sym("@variable") }),
 
-		BufferLineFill({ bg = colors.main0 }),
-		BufferLineBufferSelected({ fg = colors.text }),
-		BufferLineNumbersSelected({ BufferLineBufferSelected }),
-
 		CursorLineNr({ fg = colors.text }),
 		CursorLine({ bg = colors.main1 }),
 		Cursor({ fg = colors.text }),
