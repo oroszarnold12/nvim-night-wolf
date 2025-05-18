@@ -29,6 +29,7 @@ local colors = {
 	NeoTreeFileName = { fg = "#A6A6A6" },
 	NeoTreeGitUnstaged = { fg = "#FFDB94" },
 	NeoTreeGitUntracked = { fg = "#ABE784" },
+	NeoTreeTitleBar = { fg = "#CFCFCF", bg = "#3D3D3D" },
 	NoiceCmdLinePopup = { bg = "#242424" },
 	NonText = { fg = "#7D7D7D" },
 	NormalFloat = { fg = "#CFCFCF", bg = "#242424" },

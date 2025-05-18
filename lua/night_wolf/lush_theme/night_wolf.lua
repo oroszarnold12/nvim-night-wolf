@@ -136,6 +136,7 @@ local theme = lush(function(injected_functions)
 		NeoTreeGitUnstaged({ fg = colors.syntax_yellow }),
 		NeoTreeDirectoryName({ fg = colors.dim_text }),
 		NeoTreeFileName({ fg = colors.dim_text }),
+		NeoTreeTitleBar({ fg = colors.text, bg = colors.main2 }),
 
 		GitSignsStagedAdd({ Added }),
 		GitSignsStagedChange({ Changed }),
